@@ -1,0 +1,78 @@
+include ../cards/product-card.pug
+include ./slider-art
+
+-
+  var servicesList = [
+    {
+      title: 'Lorem Ipsum',
+      desc:
+        'Proin ac arcu nisl. Duis eu molestie lectus. Nam quis mauris faucibus, aliquet elit eu, rhoncus ipsum.',
+      img: img_artwork[2]
+    },
+    {
+      title: 'Etiam rhoncus',
+      desc:
+        'Proin quis pellentesque dui. Ut sed leo neque. Nullam aliquet iaculis neque a commodo.',
+      img: img_artwork[3]
+    },
+    {
+      title: 'Duis fermentum',
+      desc:
+        'Quisque consectetur lectus vel orci porttitor gravida ac eu erat. Nullam accumsan nibh tortor.',
+      img: img_artwork[4]
+    },
+    {
+      title: 'Lorem Ipsum',
+      desc:
+        'Proin ac arcu nisl. Duis eu molestie lectus. Nam quis mauris faucibus, aliquet elit eu, rhoncus ipsum.',
+      img: img_artwork[2]
+    },
+    {
+      title: 'Etiam rhoncus',
+      desc:
+        'Proin quis pellentesque dui. Ut sed leo neque. Nullam aliquet iaculis neque a commodo.',
+      img: img_artwork[3]
+    },
+    {
+      title: 'Duis fermentum',
+      desc:
+        'Quisque consectetur lectus vel orci porttitor gravida ac eu erat. Nullam accumsan nibh tortor.',
+      img: img_artwork[4]
+    }
+  ]
+
+.root
+  .container.carousel-header
+    h4.title-primary
+      | #{$t.agency_landing.services_title}
+    a.btn-flat.primary-text.waves-effect.view-all(href=link.agency.product)
+      | #{$t.common.btn_seeall}
+      i.material-icons.icon arrow_forward
+  .carousel-handle
+    .carousel-wrap
+      .carousel
+        #services_carousel(data-length=servicesList.length)
+          each item in servicesList
+            .item
+              +product-card(0, 0, item.img, item.title, item.desc, 'over', 'portrait')
+          .item.show-lg-up
+            .carousel-prop
+              div
+  .floating-artwork
+    .container.fixed-width
+      .artwork
+        +slider-art('services')
+          .wow.fadeInLeftShort(data-wow-offset="-60" data-wow-delay="0.3s" data-wow-duration="0.5s")
+            div
+              img.img-2d3d(src=img_assets+img_artwork[17] data-2d=img_assets+img_artwork[16] data-3d=img_assets+img_artwork[17] alt='services 3d')
+        nav.arrow
+          |
+          |
+          button#next_services.btn-floating.margin
+            i.material-icons arrow_back
+          |
+          |
+          button#prev_services.btn-floating.margin
+            i.material-icons arrow_forward
+          |
+          |
