@@ -28,6 +28,14 @@
 /* See full documentation at:
 ** https://glennmccomb.com/articles/useful-sass-scss-media-query-mixins-for-bootstrap/
 */
+
+.preview-hero-bg{
+  background:url(./assets/images/agency/doodle.png);
+  background-size:cover;
+  background-position:50% 50%;
+  background-color:transparent;
+  background-repeat:no-repeat;}
+
 .use-text-title {
   font-weight: var(--font-bold);
   font-size: 48px;
