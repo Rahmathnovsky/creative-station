@@ -18904,11 +18904,7 @@ nav.nav-menu .scrollactive-nav .btn {
 .company-logo .root img {
   height: 64px;
   margin: 32px;
-  -webkit-filter: grayscale(1) contrast(0.5) brightness(1.5);
-  filter: grayscale(1) contrast(0.5) brightness(1.5);
-  -webkit-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+
 }
 
 .company-logo .root img:hover {
