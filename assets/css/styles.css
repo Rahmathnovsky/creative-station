@@ -12451,7 +12451,7 @@ nav.nav-menu .btn-icon.hamburger {
 }
 
 .theme--light nav.nav-menu .hamburger-inner, .theme--light nav.nav-menu .hamburger-inner::before, .theme--light nav.nav-menu .hamburger-inner::after {
-  background-color: rgba(0, 0, 0, 0.87);
+  background-color: rgba(255, 255, 255, 0.87);
 }
 
 .theme--dark nav.nav-menu .hamburger-inner, .theme--dark nav.nav-menu .hamburger-inner::before, .theme--dark nav.nav-menu .hamburger-inner::after {
