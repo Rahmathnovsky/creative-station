@@ -20001,7 +20001,7 @@ nav.filter-head .nav-wrapper button {
 }
 
 .theme--light .form-style .separator:before, .theme--light .form-style .separator:after {
-  border-top-color: rgba(0, 0, 0, 0.38);
+  border-top-color: #FFFFFF;
 }
 
 .theme--dark .form-style .separator:before, .theme--dark .form-style .separator:after {

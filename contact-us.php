@@ -44,7 +44,7 @@
   <meta property="og:image" content="/images/logo-agency.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <title>Simsalabim | Home</title><!-- Styles-->
+  <title>Simsalabim | Contact Us</title><!-- Styles-->
   <!-- Put the 3rd/plugins css here-->
   <link href="./assets/css/vendors/normalize.css" rel="stylesheet">
   <link href="./assets/css/vendors/bootstrap.css" rel="stylesheet">
@@ -63,8 +63,8 @@
   <div class="m-application theme--light transition-page" id="app">
     <div class="loading"></div>
     <div class="m-content ocean-blue ocean-blue-var" id="main-wrap">
-      <div id="about-page">
-        <div class="main-wrap" style="background-color: DAF7A6;">
+      <div id="register-page">
+        <div class="main-wrap">
           <!-- #### HEADER ####-->
           <div class="sidenav mobile-nav" id="slide_menu" style="background-color: #082040;">
             <div class="side-multilv">
@@ -324,107 +324,81 @@
           </header>
           <!-- #### END HEADER ####-->
 
-          <div class="hero-banner-wrap" style="background-color: #082040;">
-            <div class="left-deco">
-              <!-- <div class="big"></div> -->
-              <div class="small"></div>
-            </div>
-            <div class="deco-wrap">
-              <div class="deco bottom s1">&nbsp;</div>
-              <!-- <div class="deco top s1">&nbsp;</div> -->
-            </div>
-            <div class="container">
-              <div class="banner-basic">
-                <div class="banner-wrap">
-                  <div class="inner">
-                    <div class="row d-flex justify-content-center align-items-center">
-                      <div class="col-md-6 px-sm-5 px-0 py-4">
-                        <div class="text">
-                          <h4 class="use-text-title" style="color: #FFA300;">Create Cool & Interesting Things That Will Surprise Everyone, shhh! We Called "magic"</h4>
-                          <h5 class="use-text-subtitle2 text-white">Of course by using a trick called technology.</h5>
+          <!-- ##### FORM #####-->
+          <div class="container-general container-front" style="background-color: #082040;">
+            <div class="form-style">
+              <div class="page-wrap">
+                <div class="container inner-wrap">
+                  <div class="auth-frame">
+                    <div class="row mb-0">
+                      <div class="col-md-6 px-lg-6 px-2">
+                        <div class="card form-box fragment-fadeUp">
+                          <div class="form-wrap" style="background-color: #082040;">
+                            <div class="form-style">
+                              <div class="head">
+                                <h4 class="use-text-title mq-md-up use-text-primary" data-class="use-text-subtitle" style="color: #FFA300;">SUBMIT FORM</h4>
+                              </div>
+                              <div class="socmed-side-login">
+                                <button class="btn navi-btn waves-effect"><i class="ion-social-facebook left"></i>Facebook</button>
+                                <button class="btn blue-btn waves-effect"><i class="ion-social-twitter left"></i>Twitter</button>
+                                <button class="btn red-btn waves-effect"><i class="ion-social-google left"></i>Google</button>
+                              </div>
+                              <div class="separator">
+                                <p class="text-white">Whats your needs ?</p>
+                              </div>
+                              <form id="contact-form" method="post" action="api/Kirim_form/send_email">
+                                <div class="row spacing3 mb-0">
+                                  <div class="col-sm-12">
+                                    <div class="input-field d-flex">
+                                      <p class="use-text-subtitle1" style="color: #87CEEB;">Name:</p>
+                                      <input class="validate text-white" type="text" name="name" placeholder="..." required />
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-12">
+                                    <div class="input-field d-flex">
+                                      <p class="use-text-subtitle1" style="color: #87CEEB;">Email:</p>
+                                      <input class="validate text-white" type="email" name="email" placeholder="..." required />
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-12">
+                                    <div class="input-field ">
+                                      <p class="use-text-subtitle1 d-flex" style="color: #87CEEB;">Subject:</p>
+                                      <input class="validate text-white" type="text" name="subject" placeholder="..." required />
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-12">
+                                    <div class="input-field ">
+                                      <p class="use-text-subtitle1 d-flex" style="color: #87CEEB;">Description:</p>
+                                      <input class="validate text-white" type="text" name="description" placeholder="..." required />
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="btn-area">
+                                  <!-- <div class="form-helper">
+                                    <div class="form-control-label">
+                                      <label><input class="filled-in secondary" type="checkbox" required /><span>I have read and accept the Terms of <a class="link" href="#">Service &amp; Privacy Policy *</a></span></label>
+                                    </div>
+                                  </div> -->
+                                  <div class="mt-4"><button class="btn primary btn-large waves-effect" type="submit" id="btnSubmitForm" style="background-color: #051326;">Submit</button></div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-md-6 px-sm-5 py-4">
-                        <div class="img">
-                          <img class="img-2d3d" src="./assets/images/agency/index-5.png" data-2d="./assets" data-3d="./assets/images/agency/about_3D@2x.png" alt="services 3d" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- ##### BANNER #####-->
-
-          <!-- ##### COMPANY LOGO #####-->
-          <div class="company-logo fixed-width" style="background-color: #082040;">
-            <div class="root">
-              <img src="./assets/images/logos/1-1.png" alt="logo0" />
-              <img src="./assets/images/logos/2-1.png" alt="logo1" />
-              <img src="./assets/images/logos/3-1.png" alt="logo2" />
-              <img src="./assets/images/logos/4-1.png" alt="logo3" />
-              <img src="./assets/images/logos/5-1.png" alt="logo4" />
-            </div>
-          </div><!-- ##### END COMPANY LOGO #####-->
-
-          <!-- ##### BANNER OLD #####-->
-          <!-- <div class="hero-banner-wrap"  style="background-color: #900C3F;">
-            <div class="left-deco">
-              <div class="big"></div>
-              <div class="small"></div>
-            </div>
-            <div class="deco-wrap">
-              <div class="deco bottom s1">&nbsp;</div>
-              <div class="deco top s1">&nbsp;</div>
-            </div>
-            <div class="container">
-              <div class="banner-basic">
-                <div class="banner-wrap">
-                  <div class="inner">
-                    <div class="row d-flex justify-content-center align-items-center">
-                      <div class="col-md-6 px-sm-5 px-0 py-4 mt-10">
-                        <div class="text">
-                          <h5 class="use-text-title" style="color: #A087D1;">Create Cool and Interesting Things That Will Surprise Everyone, shhh! We Called "magic"</h5>
-                          <h6 class="use-text-subtitle2 text-white">of course by using a trick called technology :D</h6>
-                        </div>
-                      </div>
-                      <div class="col-md-6 px-sm-5 py-4">
-                        <div class="img">
-                          <img class="img-2d3d" src="./assets/images/agency/sale.png" data-2d="./assets/images/agency/team_2D@2x.png" data-3d="./assets/images/agency/team_3D@2x.png" alt="services 3d" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- ##### END BANNER OLD #####-->
-
-          <!-- ##### TEAM #####-->
-          <div class="hero-banner-wrap" style="background-color: #082040;">
-            <!-- <div class="left-deco">
-              <div class="big"></div>
-              <div class="small"></div>
-            </div>
-            <div class="deco-wrap">
-              <div class="deco bottom s1">&nbsp;</div>
-              <div class="deco top s1">&nbsp;</div>
-            </div> -->
-            <div class="container">
-              <div class="banner-basic">
-                <div class="banner-wrap">
-                  <div class="inner">
-                    <div class="row d-flex justify-content-center align-items-center">
-                      <div class="col-md-6 px-sm-5 py-4">
-                        <div class="img">
-                          <img class="img-2d3d" src="./assets/images/agency/index-4.png" data-2d="./assets/images/agency/sale.png" data-3d="./assets/images/agency/sale.png" alt="services 3d" />
-                        </div>
-                      </div>
-                      <div class="col-md-6 px-sm-5 px-0 py-4">
-                        <div class="text">
-                          <h5 class="use-text-title" style="color: #FFA300;">Solutions & Innovations Come From Anyone!</h5>
-                          <h6 class="use-text-subtitle2 text-white">Great things in business are never done by one person. It was done by "magic" ooops! sorry i mean by the Team.</h6>
+                      <div class="col-md-6">
+                        <div class="hidden-sm-down">
+                          <div class="greeting">
+                            <h4 class="use-text-title2 use-text-primary pb-2" style="color: #FFA300;">Just register to join with us</h4>
+                            <h6 class="use-text-subtitle2 text-white">A platform with efficient integration of many features and so much more</h6>
+                            <div class="img">
+                              <!-- <div class="deco">
+                                <div class="big"></div>
+                                <div class="small"></div>
+                              </div> -->
+                              <img class="img-2d3d" src="./assets/images/agency/index-4.png" data-2d="./assets" data-3d="./assets/images/agency/register_3D@2x.png" alt="registes" />
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -432,191 +406,7 @@
                 </div>
               </div>
             </div>
-          </div>
-
-          <!-- ##### COUNTER #####-->
-          <div class="counter-style" id="counter_target" style="background-color: #082040;">
-            <div class="container max-md">
-              <div class="row justify-content-center align-items-center text-dark">
-                <div class="col py-4">
-                  <div class="counter-item">
-                    <!-- <span class="icon ion-flag" style="color: #fafafa;"></span> -->
-                    <div class="text">
-                      <h4 class="display-1" style="color: #5E17EB;">TECHNOLOGY<span class="numscroller" data-min="0" data-max="" data-delay="5" data-increment="8">&nbsp;</span></h4>
-                      <h6 class="use-text-subtitle1 text-white">SOLUTIONS & INNOVATIONS</h6>
-                    </div>
-                  </div>
-                </div>
-                <div class="col py-4">
-                  <div class="counter-item">
-                    <!-- <span class="icon ion-android-people" style="color: #fafafa;"></span> -->
-                    <div class="text">
-                      <h4 class="display-1" style="color: #5E17EB;">DIGITAL<span class="numscroller" data-min="0" data-max="" data-delay="5" data-increment="8">&nbsp;</span></h4>
-                      <h6 class="use-text-subtitle1 text-white">MARKETING</h6>
-                    </div>
-                  </div>
-                </div>
-                <div class="col py-4">
-                  <div class="counter-item">
-                    <!-- <span class="icon ion-android-globe" style="color: #fafafa;"></span> -->
-                    <div class="text">
-                      <h4 class="display-1" style="color: #5E17EB;">OFFICE<span class="numscroller" data-min="0" data-max="" data-delay="5" data-increment="8">&nbsp;</span></h4>
-                      <h6 class="use-text-subtitle1 text-white">INFRASTRUCTURE</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- ##### END COUNTER #####-->
-
-          
-          <!-- ##### END TEAM #####-->
-
-          <!-- ##### PHOTO #####-->
-          <div class="hero-banner-wrap" style="background-color: #082040;">
-            <!-- <div class="left-deco">
-              <div class="big"></div>
-              <div class="small"></div>
-            </div>
-            <div class="deco-wrap">
-              <div class="deco bottom s1">&nbsp;</div>
-              <div class="deco top s1">&nbsp;</div>
-            </div> -->
-            <div class="container">
-              <div class="banner-basic">
-                <div class="banner-wrap">
-                  <div class="inner">
-                    <div class="row d-flex justify-content-center align-items-center">
-                      <div class="col-md-6 px-sm-5 px-0 py-4">
-                        <div class="text">
-                          <h5 class="use-text-title" style="color: #FFA300;">Let's Create Something Big With Our Digital Services!</h5>
-                          <h6 class="use-text-subtitle2 text-white">Handle all needs related Technology to support your Development in the current era.</h6>
-                        </div>
-                      </div>
-                      <div class="col-md-6 px-sm-5 py-4">
-                        <div class="img">
-                          <img class="img-2d3d" src="./assets/images/agency/index-3.png" data-2d="./assets/images/agency/team_2D@2x.png" data-3d="./assets/images/agency/team_3D@2x.png" alt="services 3d" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="space-bottom-short" style="background-color: #082040;">
-            <div class="about-style">
-              <div class="container gallery-root">
-                <!-- <h4 class="use-text-title2 use-text-primary mb-3">Gallery</h4>
-                <p class="use-text-subtitle2">Vestibulum faucibus eget erat eget pretium. Donec commodo convallis eget suscipit orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
-                <div class="carousel">
-                  <button class="btn btn-icon waves-effect btn-small nav prev" id="team_prev"><i class="icon material-icons">arrow_back</i></button>
-                  <div class="photo-carousel" id="about_photo_carousel">
-                    <div class="item px-sm-3 px-1 showImg" data-index="0">
-                      <div class="showimg">
-                        <a class="waves-effect" href="./assets/images/avatars/data.jpg"><img src="./assets/images/avatars/data.jpg" alt="photo" /></a>
-                      </div>
-                      <div class="card media-card portrait photo">
-                        <a class="cover-link waves-effect" href="./assets/images/avatars/data.jpg"></a>
-                        <figure><img src="./assets/images/avatars/data.jpg" alt="cover" /></figure>
-                        <div class="property">
-                          <div class="card-title media-title">Improve your business with a website and application system to support quality work.</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="item px-sm-3 px-1 showImg" data-index="1">
-                      <div class="showimg">
-                        <a class="waves-effect" href="./assets/images/avatars/program.jpg"><img src="./assets/images/avatars/program.jpg" alt="photo" /></a>
-                      </div>
-                      <div class="card media-card portrait photo">
-                        <a class="cover-link waves-effect" href="./assets/images/avatars/program.jpg"></a>
-                        <figure><img src="./assets/images/avatars/program.jpg" alt="cover" /></figure>
-                        <div class="property">
-                          <div class="card-title media-title">Create innovations & solutions to scale up your business.</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="item px-sm-3 px-1 showImg" data-index="2">
-                      <div class="showimg">
-                        <a class="waves-effect" href="./assets/images/avatars/socmed.jpg"><img src="./assets/images/avatars/socmed.jpg" alt="photo" /></a>
-                      </div>
-                      <div class="card media-card portrait photo">
-                        <a class="cover-link waves-effect" href="./assets/images/avatars/socmed.jpg"></a>
-                        <figure><img src="./assets/images/avatars/socmed.jpg" alt="cover" /></figure>
-                        <div class="property">
-                          <div class="card-title media-title">Increase sales with social media creations and market analysis with current trends.</div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- <div class="item px-sm-3 px-1 showImg" data-index="3">
-                      <div class="showimg">
-                        <a class="waves-effect" href="http://via.placeholder.com/1050x700/CFD8DC/767676/"><img src="http://via.placeholder.com/1050x700/CFD8DC/767676/" alt="photo" /></a>
-                      </div>
-                      <div class="card media-card portrait photo">
-                        <a class="cover-link waves-effect" href="http://via.placeholder.com/1050x700/CFD8DC/767676/"></a>
-                        <figure><img src="http://via.placeholder.com/1050x700/CFD8DC/767676/" alt="cover" /></figure>
-                        <div class="property">
-                          <div class="card-title media-title">Sed lacinia velit, ut malesuada eros interdum a</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="item px-sm-3 px-1 showImg" data-index="4">
-                      <div class="showimg">
-                        <a class="waves-effect" href="http://via.placeholder.com/1050x700/673AB7/FFFFFF/"><img src="http://via.placeholder.com/1050x700/673AB7/FFFFFF/" alt="photo" /></a>
-                      </div>
-                      <div class="card media-card portrait photo">
-                        <a class="cover-link waves-effect" href="http://via.placeholder.com/1050x700/673AB7/FFFFFF/"></a>
-                        <figure><img src="http://via.placeholder.com/1050x700/673AB7/FFFFFF/" alt="cover" /></figure>
-                        <div class="property">
-                          <div class="card-title media-title">Sed lacinia velit, ut malesuada eros interdum a</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="item px-sm-3 px-1 showImg" data-index="5">
-                      <div class="showimg">
-                        <a class="waves-effect" href="http://via.placeholder.com/1050x700/EF5350/FFFFFF/"><img src="http://via.placeholder.com/1050x700/EF5350/FFFFFF/" alt="photo" /></a>
-                      </div>
-                      <div class="card media-card portrait photo">
-                        <a class="cover-link waves-effect" href="http://via.placeholder.com/1050x700/EF5350/FFFFFF/"></a>
-                        <figure><img src="http://via.placeholder.com/1050x700/EF5350/FFFFFF/" alt="cover" /></figure>
-                        <div class="property">
-                          <div class="card-title media-title">Sed lacinia velit, ut malesuada eros interdum a</div>
-                        </div>
-                      </div>
-                    </div> -->
-                  </div>
-                  <button class="btn btn-icon waves-effect btn-small nav next" id="team_next">
-                    <i class="icon material-icons">arrow_forward</i>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div><!-- ##### END PHOTO #####-->
-
-          <!-- ##### CALL ACTION #####-->
-          <!-- <div class="space-bottom-short">
-            <div class="call-to-action">
-              <div class="container fixed-width-md-up">
-                <div class="root">
-                  <div class="card paper" style="background-color: #6A5ACD;">
-                    <div class="row align-items-center mb-0">
-                      <div class="col-md-8 pa-0">
-                        <h4 class="use-text-title2 pb-2">Ready for your update ?</h4>
-                        <p class="use-text-subtitle2">Pellentesque ac bibendum tortor. Nulla eget lobortis lacus.</p>
-                      </div>
-                      <div class="col-md-4 pa-0">
-                        <div class="d-flex align-items-center justify-content-end">
-                          <a class="waves-effect btn button" href="https://api.whatsapp.com/send?phone=6288214552367&text=Halo%20salam%20kenal,%20saya%20'...'%20dari%20'...'.%20">contact us<i class="material-icons right-icon">send</i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- ##### END CALL ACTION #####-->
+          </div><!-- ##### END FORM #####-->
 
           <!-- ##### FOOTER #####-->
           <div id="footer" style="background-color: #051326;">
@@ -731,19 +521,6 @@
             </footer>
           </div>
           <!-- ##### END FOOTER #####-->
-
-          <!-- ##### NOTIFICATIONS #####-->
-          <div class="hidden-md-down">
-            <div class="notification alert alert-dismissible fade show" role="alert">
-              <div class="wrapper">
-                <div class="content">
-                  <div class="action">If there are other needs outside of the products we display, please click the following link to find out more >>> <a class="text-danger" href="#">LINK</a></div>
-                  <button class="btn btn-outlined waves-effect waves-light white" type="button" data-dismiss="alert" aria-label="Close">Dismiss</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- ##### END NOTIFICATIONS #####-->
 
         </div>
       </div>
